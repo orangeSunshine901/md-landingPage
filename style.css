@@ -1,0 +1,91 @@
+/**
+primary-color: #0A2342;
+secondary-color: #0A2342;
+teritiary-color: #FFFDF7;
+**/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.landingPage1{
+    width: 100%;
+    background-color: #1D8DA1;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.heroSection{
+    height: 100vh;
+    width: 55%;
+    background-color: #1D8DA1;
+}
+
+.navigation{
+    height: 10vh;
+    background-color: #1D8DA1;
+}
+
+.headerLogo{
+    width: 10%;
+    margin: auto;
+    display: block;
+    padding-top: 1em;
+}
+
+.heroBody{
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 2.5rem;
+    padding-right: 300px;
+}
+
+.heroHeading{
+    margin-top: 20%;
+    margin-bottom: 1.2rem;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: white;
+    line-height: 1;
+}
+
+.heroText{
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 35px;
+    padding-right: 20px;
+    font-weight: 200;
+    color: white;
+}
+
+.heroButton{
+    width: 8.375rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #0A2342;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    box-shadow: 0 3px 6px 2px rgba(0,0,0,0.16);
+    
+}
+
+.heroImg{
+    width: 45%;
+    background-color: white;
+    height: 100vh;
+}
+
+.heroImg1{
+    height: 100vh;
+}
+
+

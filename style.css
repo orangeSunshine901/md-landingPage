@@ -188,21 +188,25 @@ teritiary-color: #FFFDF7;
 }
 
 .heroImg2{
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
     scroll-snap-align: start;
 }
 .heroImg3{
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
     scroll-snap-align: start;
 
 }
 .heroImg4{
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
     scroll-snap-align: start;
 }
 
 .heroImg5{
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
     scroll-snap-align: start;
 }
 .images{

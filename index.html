@@ -4,34 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9ee4c45993.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- <div class="loadScreen"></div>
-    <div class="loadingLogo"></div> -->
-    <div class="landingPage1">
-        <section class="heroSection">
-            <nav class="navigation">
-                <a>
-                    <img class="headerLogo" src="./img/MD-logo.png">
-                </a>
-            </nav>
-            <div class="heroBody">
-                <h1 class="heroHeading"><spnan style="color:#0A2342; font-weight:600;">DISCOVER</spnan> YOUR<br/>NEXT HOME</h1>
-                <p class="heroText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <button class="heroButton">KNOW MORE</button>
-            </div>
-        </section>
-        <section class="heroImg">
-            <img class="heroImg1"src="img/hero-img1.png">
-        </section>
+    <div class="preload">
+        <img src="./img/MD-logo-blue.png">
     </div>
-    <div class="landingPage2"></div>
-    <div class="landingPage3"></div>
+    <div class="container">
+        <div class="landingPage1">
+            <section class="heroSection">
+                <nav class="navigation">
+                    <a>
+                        <img class="headerLogo" src="./img/MD-logo.png">
+                    </a>
+                </nav>
+                <div class="heroBody">
+                    <h1 class="heroHeading"><span style="color:#0A2342; font-weight:600;">DISCOVER</span> YOUR<br/>NEXT HOME</h1>
+                    <p class="heroText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <button class="heroButton">KNOW MORE</button>
+                </div>
+                <!-- <div class="heroFooter">
+                    <p>SCROLL DOWN</p>
+                    <span style="color: white;">
+                        <i class="fas fa-angle-double-down white arrowDown"></i>
+                    </span>
+                </div> -->
+            </section>
+            <section class="heroImg">
+                <img class="heroImg1"src="img/hero-img1.png">
+            </section>
+        </div>
+        <div class="landingPage2">
+            <section class="heroSection">
+                <nav class="navigation">
+                    <a>
+                        <img class="headerLogo" src="./img/MD-logo.png">
+                    </a>
+                </nav>
+                <div class="heroBody">
+                    <h1 class="heroHeading">THE <span style="color: #1D8DA1; font-weight: 600;">BEST</span><br/>REAL ESTATES</h1>
+                    <p class="heroText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <button class="heroButton">KNOW MORE</button>
+                </div>
+            </section>
+            <section class="heroImgSecond" style="z-index: 0;">
+                <div class="heroImg2">
+                    <img class="images" src="img/hero-img2.png">
+                </div>
+                <div class="heroImg3">
+                    <img class="images" src="img/hero-img3.png">
+                </div>
+                <div class="heroImg4">
+                    <img class="images" src="img/hero-img4.png">
+                </div>
+                <div class="heroImg5">
+                    <img class="images" src="img/hero-img5.png">
+                </div>
+            </section>
+        </div>
+    </div>
+    <div>
+        <div class="scrollOne">
+            <p style= "color: #fff">SCROLL DOWN</p>
+            <span style="color: #fff;">
+                <i class="fas fa-angle-double-down white arrowDown1"></i>
+            </span>
+        </div>
+        <!-- <div class="scrollTwo">
+            <span style="color: #fff;">
+                <i class="fas fa-angle-double-up arrowUp"></i>
+            </span>
+            <p style= "color: #fff">SCROLL UP</p>
+        </div> -->
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

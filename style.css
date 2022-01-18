@@ -78,7 +78,7 @@ teritiary-color: #FFFDF7;
     color: white;
     line-height: 1;
     animation: heading 1s ease-in-out forwards;
-    animation-delay: 2s;
+    animation-delay: 3s;
     transform: translateX(-500px)
 }
 
@@ -95,7 +95,7 @@ teritiary-color: #FFFDF7;
     font-weight: 200;
     color: white;
     animation: heading 1s ease-in-out forwards;
-    animation-delay: 2.5s;
+    animation-delay: 3.5s;
     transform: translateX(-800px)
 }
 
@@ -111,7 +111,7 @@ teritiary-color: #FFFDF7;
     box-shadow: 0 3px 6px 2px rgba(0,0,0,0.16);
     animation: buttons 1s ease-in-out forwards;
     opacity: 0;
-    animation-delay: 3.0s;
+    animation-delay: 4.0s;
     cursor: pointer;
 }
 

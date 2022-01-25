@@ -78,7 +78,7 @@ teritiary-color: #FFFDF7;
     color: white;
     line-height: 1;
     animation: heading 1s ease-in-out forwards;
-    animation-delay: 3s;
+    animation-delay: 3.5s;
     transform: translateX(-500px)
 }
 
@@ -277,7 +277,7 @@ teritiary-color: #FFFDF7;
     background-color: white;
     overflow: hidden;
     opacity: 100%;
-    transition: opacity 2.5s ease-out;
+    transition: opacity 2.0s ease-out;
 }
   .preload img{
       padding-top: 300px;
